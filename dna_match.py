@@ -46,11 +46,8 @@ def align_sequences():
                     'parent_dna': parent_dna
                 })
                 break  # Exit the loop if a match is found
-
+    
     return jsonify({'results': results})
 
 if __name__ == '__main__':
     app.run(debug=True)
-
-
-
